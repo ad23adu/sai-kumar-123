@@ -17,7 +17,6 @@ library(ggplot2)
 data <- read.csv("est16us.csv", header = TRUE)
 
 
-# Drop the first row if it contains unnamed or unwanted data
 data <- data[-1, ]
 
 head(data)
