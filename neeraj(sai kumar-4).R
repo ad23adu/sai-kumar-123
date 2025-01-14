@@ -8,11 +8,9 @@ if (!requireNamespace("readr", quietly = TRUE)) install.packages("readr")
 if (!requireNamespace("ggplot2", quietly = TRUE)) install.packages("ggplot2")
 if (!requireNamespace("dplyr", quietly = TRUE)) install.packages("dplyr")
 
-# Install missing packages
 install.packages("corrplot")     
 install.packages("ggplot2")      
 
-# Load the packages after installation
 library(corrplot)
 library(ggplot2)
 
